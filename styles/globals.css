@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand: #1B5E20;
+  --brand-2: #66BB6A;
+}
+
+html, body, #__next { height: 100%; }
+body { @apply bg-gray-50 text-gray-900; }
+
+.btn { @apply inline-flex items-center gap-2 rounded-md px-4 py-2 bg-toefl-primary text-white hover:bg-green-900 transition; }
+.card { @apply bg-white rounded-lg shadow p-4; }
+.input { @apply border rounded px-3 py-2 w-full; }
